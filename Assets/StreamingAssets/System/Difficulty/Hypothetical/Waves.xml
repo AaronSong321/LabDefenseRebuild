@@ -1,0 +1,50 @@
+<Waves>
+	<Wave count="1">
+		<Init dosh="10000"/>
+		<Interval wave="2" enemy="0.4"/>
+		<Enemies>
+			<Enemy name="Elfin" count="15"/>
+			<Enemy name="Crawler" count="0"/>
+			<Enemy name="Zombie" count="0"/>
+			<Enemy name="Thirsty" count="0"/>
+			<Enemy name="Butcher" count="0"/>
+			<Enemy name="Unicorn" count="0"/>
+			<Enemy name="Desolator" count="0"/>
+			<Enemy name="Manmoth" count="0"/>
+			<Enemy name="Tank" count="0"/>
+			<Enemy name="Dragon" count="0"/>
+		</Enemies>
+	</Wave>
+	<Wave count="2">
+		<Init dosh="200"/>
+		<Interval wave="10" enemy="0.4"/>
+		<Enemies>
+			<Enemy name="Elfin" count="8"/>
+			<Enemy name="Crawler" count="5"/>
+			<Enemy name="Zombie" count="5"/>
+			<Enemy name="Thirsty" count="0"/>
+			<Enemy name="Butcher" count="0"/>
+			<Enemy name="Unicorn" count="0"/>
+			<Enemy name="Desolator" count="0"/>
+			<Enemy name="Manmoth" count="0"/>
+			<Enemy name="Tank" count="0"/>
+			<Enemy name="Dragon" count="0"/>
+		</Enemies>
+	</Wave>
+	<Wave count="3">
+		<Init dosh="200"/>
+		<Interval wave="10" enemy="0.4"/>
+		<Enemies>
+			<Enemy name="Elfin" count="8"/>
+			<Enemy name="Crawler" count="6"/>
+			<Enemy name="Zombie" count="3"/>
+			<Enemy name="Thirsty" count="0"/>
+			<Enemy name="Butcher" count="0"/>
+			<Enemy name="Unicorn" count="0"/>
+			<Enemy name="Desolator" count="0"/>
+			<Enemy name="Manmoth" count="0"/>
+			<Enemy name="Tank" count="0"/>
+			<Enemy name="Dragon" count="0"/>
+		</Enemies>
+	</Wave>
+</Waves>

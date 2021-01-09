@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Perk name="MechanicMaster">
+  <Attributes>
+    <Attribute index="1" factor="0.01"/>
+    <Attribute index="2" factor="0.006"/>
+    <Attribute index="3" deltaSpeed="1"/>
+    <Attribute index="4" factor="0.012"/>
+  </Attributes>
+  <Skills>
+    <Skill index="1" factor="0.25"/>
+    <Skill index="2" factor="0.25"/>
+    <Skill index="3"/>
+    <Skill index="4" deltaSpeed="20"/>
+    <Skill index="5" factor1="0.85" factor2="0.8" factor3="0.75" duration1="3"/>
+    <Skill index="6"/>
+    <Skill index="7" deltaSpeed1="40" deltaSpeed2="50" deltaSpeed3="60"/>
+    <Skill index="8" factor="0.3"/>
+    <Skill index="9" factor="0.2" upperBound="900"/>
+    <Skill index="10" factor1="4" factor2="6" factor3="8"/>
+  </Skills>
+</Perk>

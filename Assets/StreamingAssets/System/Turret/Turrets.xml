@@ -1,0 +1,235 @@
+<Turrets>
+	<Turret name="MachineGun">
+		<Level count="1">
+			<Basic cost="100" attackSpeed="180" minRange="0" maxRange="210" targetFlyable="Ground" targetCount="One"/>
+			<Attack damage="35" damageType="Bullet" ballVelocity="1500"/>
+			<EnemyBuff/>
+		</Level>
+		<Level count="2">
+			<Basic cost="80" attackSpeed="210" minRange="0" maxRange="210" targetFlyable="Ground" targetCount="One"/>
+			<Attack damage="50" damageType="Bullet" ballVelocity="1500"/>
+			<EnemyBuff/>
+		</Level>
+		<Level count="3">
+			<Basic cost="110" attackSpeed="240" minRange="0" maxRange="210" targetFlyable="Ground" targetCount="One"/>
+			<Attack damage="60" damageType="Bullet" ballVelocity="1500"/>
+			<EnemyBuff/>
+		</Level>
+	</Turret>
+
+  <Turret name="CrossbowHunter">
+    <Level count="1">
+      <Basic cost="210" attackSpeed="70" minRange="100" maxRange="310" targetFlyable="GroundAir" targetCount="One"/>
+      <Attack damage="110" damageType="Bullet" ballVelocity="800"/>
+      <EnemyBuff name="Stun" duration="1.2" possibility="0.07"/>
+    </Level>
+    <Level count="2">
+      <Basic cost="190" attackSpeed="70" minRange="100" maxRange="310" targetFlyable="GroundAir" targetCount="One"/>
+      <Attack damage="190" damageType="Bullet" ballVelocity="800"/>
+      <EnemyBuff name="Stun" duration="1.4" possibility="0.07"/>
+    </Level>
+    <Level count="3">
+      <Basic cost="190" attackSpeed="70" minRange="100" maxRange="310" targetFlyable="GroundAir" targetCount="One"/>
+      <Attack damage="270" damageType="Bullet" ballVelocity="800"/>
+      <EnemyBuff name="Stun" duration="1.6" possibility="0.07"/>
+    </Level>
+  </Turret>
+
+  <Turret name="PillBox">
+    <Level count="1">
+      <Basic cost="260" attackSpeed="280" minRange="0" maxRange="210" targetFlyable="Ground" targetCount="One"/>
+      <Attack damage="54" damageType="Bullet" ballVelocity="1500"/>
+      <EnemyBuff/>
+    </Level>
+    <Level count="2">
+      <Basic cost="280" attackSpeed="330" minRange="0" maxRange="210" targetFlyable="Ground" targetCount="One"/>
+      <Attack damage="86" damageType="Bullet" ballVelocity="1500"/>
+      <EnemyBuff/>
+    </Level>
+    <Level count="3">
+      <Basic cost="300" attackSpeed="370" minRange="0" maxRange="210" targetFlyable="Ground" targetCount="One"/>
+      <Attack damage="111" damageType="Bullet" ballVelocity="1500"/>
+      <EnemyBuff/>
+    </Level>
+  </Turret>
+
+  <Turret name="SniPer">
+    <Level count="1">
+      <Basic cost="500" attackSpeed="50" minRange="0" maxRange="450" targetFlyable="Ground" targetCount="One"/>
+      <Attack damage="400" damageType="Bullet" ballVelocity="5000"/>
+      <EnemyBuff/>
+    </Level>
+    <Level count="2">
+      <Basic cost="450" attackSpeed="50" minRange="0" maxRange="450" targetFlyable="Ground" targetCount="One"/>
+      <Attack damage="700" damageType="Bullet" ballVelocity="5000"/>
+      <EnemyBuff/>
+    </Level>
+    <Level count="3">
+      <Basic cost="450" attackSpeed="50" minRange="0" maxRange="450" targetFlyable="Ground" targetCount="One"/>
+      <Attack damage="1000" damageType="Bullet" ballVelocity="5000"/>
+      <EnemyBuff/>
+    </Level>
+  </Turret>
+  
+	<Turret name="SharpnelThrower">
+		<Level count="1">
+			<Basic cost="180" attackSpeed="42" minRange="150" maxRange="300" targetFlyable="Ground" targetCount="One"/>
+			<Attack damage="0" damageType="Bullet" ballVelocity="600"/>
+			<EnemyBuff name="Explosive" radius="80" damageType="Explosive" damage="70"/>
+		</Level>
+		<Level count="2">
+			<Basic cost="160" attackSpeed="42" minRange="150" maxRange="310" targetFlyable="Ground" targetCount="One"/>
+			<Attack damage="0" damageType="Bullet" ballVelocity="600"/>
+			<EnemyBuff name="Explosive" radius="80" damageType="Explosive" damage="115"/>
+		</Level>
+		<Level count="3">
+			<Basic cost="170" attackSpeed="42" minRange="150" maxRange="320" targetFlyable="Ground" targetCount="One"/>
+			<Attack damage="0" damageType="Bullet" ballVelocity="600"/>
+			<EnemyBuff name="Explosive" radius="80" damageType="Explosive" damage="155"/>
+		</Level>
+	</Turret>
+
+  <Turret name="PatriotMissile">
+    <Level count="1">
+      <Basic cost="180" attackSpeed="56" minRange="100" maxRange="320" targetFlyable="Air" targetCount="One"/>
+      <Attack damage="60" damageType="Bullet" ballVelocity="600"/>
+      <EnemyBuff name="Explosive" radius="50" damageType="Explosive" damage="120"/>
+    </Level>
+    <Level count="2">
+      <Basic cost="140" attackSpeed="70" minRange="100" maxRange="320" targetFlyable="Air" targetCount="One"/>
+      <Attack damage="120" damageType="Bullet" ballVelocity="600"/>
+      <EnemyBuff name="Explosive" radius="55" damageType="Explosive" damage="150"/>
+    </Level>
+    <Level count="3">
+      <Basic cost="160" attackSpeed="84" minRange="100" maxRange="320" targetFlyable="Air" targetCount="One"/>
+      <Attack damage="180" damageType="Bullet" ballVelocity="600"/>
+      <EnemyBuff name="Explosive" radius="60" damageType="Explosive" damage="200"/>
+    </Level>
+  </Turret>
+
+  <Turret name="RocketLauncher">
+    <Level count="1">
+      <Basic cost="450" attackSpeed="55" minRange="100" maxRange="360" targetFlyable="GroundAir" targetCount="One"/>
+      <Attack damage="150" damageType="Bullet" ballVelocity="600"/>
+      <EnemyBuff name="Explosive" radius="50" damageType="Explosive" damage="150"/>
+    </Level>
+    <Level count="2">
+      <Basic cost="400" attackSpeed="55" minRange="100" maxRange="360" targetFlyable="GroundAir" targetCount="One"/>
+      <Attack damage="200" damageType="Bullet" ballVelocity="600"/>
+      <EnemyBuff name="Explosive" radius="55" damageType="Explosive" damage="250"/>
+    </Level>
+    <Level count="3">
+      <Basic cost="400" attackSpeed="55" minRange="100" maxRange="360" targetFlyable="GroundAir" targetCount="One"/>
+      <Attack damage="250" damageType="Bullet" ballVelocity="600"/>
+      <EnemyBuff name="Explosive" radius="60" damageType="Explosive" damage="350"/>
+    </Level>
+  </Turret>
+
+  <Turret name="FlameThrower">
+    <Level count="1">
+      <Basic cost="105" attackSpeed="300" minRange="0" maxRange="220" targetFlyable="Ground" targetCount="All"/>
+      <Attack damage="0" damageType="Bullet" ballVelocity="2000"/>
+      <EnemyBuff name="ContinuousDamage" duration = "2" damageType="Flame" damagePerSecond="40"/>
+    </Level>
+    <Level count="2">
+      <Basic cost="90" attackSpeed="300" minRange="0" maxRange="220" targetFlyable="Ground" targetCount="All"/>
+      <Attack damage="0" damageType="Bullet" ballVelocity="2000"/>
+      <EnemyBuff name="ContinuousDamage" duration = "2" damageType="Flame" damagePerSecond="55"/>
+    </Level>
+    <Level count="3">
+      <Basic cost="90" attackSpeed="300" minRange="0" maxRange="220" targetFlyable="Ground" targetCount="All"/>
+      <Attack damage="0" damageType="Bullet" ballVelocity="2000"/>
+      <EnemyBuff name="ContinuousDamage" duration = "2" damageType="Flame" damagePerSecond="68"/>
+    </Level>
+  </Turret>
+
+  <Turret name="MolotovCocktail">
+    <Level count="1">
+      <Basic cost="200" attackSpeed="150" minRange="0" maxRange="500" targetFlyable="Ground" targetCount="One"/>
+      <Attack damage="0" damageType="Bullet" ballVelocity="600"/>
+      <EnemyBuff name="ContinuousDamage" duration = "5" damageType="Flame" damagePerSecond="150"/>
+    </Level>
+    <Level count="2">
+      <Basic cost="130" attackSpeed="150" minRange="0" maxRange="500" targetFlyable="Ground" targetCount="One"/>
+      <Attack damage="0" damageType="Bullet" ballVelocity="600"/>
+      <EnemyBuff name="ContinuousDamage" duration = "7" damageType="Flame" damagePerSecond="190"/>
+    </Level>
+    <Level count="3">
+      <Basic cost="0" attackSpeed="150" minRange="0" maxRange="500" targetFlyable="Ground" targetCount="One"/>
+      <Attack damage="250" damageType="Bullet" ballVelocity="600"/>
+      <EnemyBuff name="ContinuousDamage" duration = "10" damageType="Flame" damagePerSecond="230"/>
+    </Level>
+  </Turret>
+
+  <Turret name="MicroWave">
+    <Level count="1">
+      <Basic cost="380" attackSpeed="300" minRange="0" maxRange="290" targetFlyable="Ground" targetCount="All"/>
+      <Attack damage="0" damageType="Microwave" ballVelocity="6000"/>
+      <EnemyBuff name="ContinuousDamage" duration = "5" damageType="Flame" damagePerSecond="70"/>
+    </Level>
+    <Level count="2">
+      <Basic cost="420" attackSpeed="300" minRange="0" maxRange="350" targetFlyable="Ground" targetCount="All"/>
+      <Attack damage="0" damageType="Microwave" ballVelocity="6000"/>
+      <EnemyBuff name="ContinuousDamage" duration = "5" damageType="Flame" damagePerSecond="90"/>
+    </Level>
+    <Level count="3">
+      <Basic cost="420" attackSpeed="300" minRange="0" maxRange="410" targetFlyable="Ground" targetCount="All"/>
+      <Attack damage="0" damageType="Microwave" ballVelocity="6000"/>
+      <EnemyBuff name="ContinuousDamage" duration = "5" damageType="Flame" damagePerSecond="110"/>
+    </Level>
+  </Turret>
+
+  <Turret name="PS">
+    <Level count="1">
+      <Basic cost="105" attackSpeed="77" minRange="0" maxRange="210" targetFlyable="Ground" targetCount="One"/>
+      <Attack damage="35" damageType="Tesla" ballVelocity="5000"/>
+      <EnemyBuff/>
+    </Level>
+    <Level count="2">
+      <Basic cost="90" attackSpeed="95" minRange="0" maxRange="210" targetFlyable="Ground" targetCount="One"/>
+      <Attack damage="50" damageType="Tesla" ballVelocity="5000"/>
+      <EnemyBuff/>
+    </Level>
+    <Level count="3">
+      <Basic cost="90" attackSpeed="102" minRange="0" maxRange="210" targetFlyable="Ground" targetCount="One"/>
+      <Attack damage="60" damageType="Tesla" ballVelocity="5000"/>
+      <EnemyBuff/>
+    </Level>
+  </Turret>
+
+  <Turret name="TransForm">
+    <Level count="1">
+      <Basic cost="140" attackSpeed="70" minRange="0" maxRange="210" targetFlyable="Ground" targetCount="All"/>
+      <Attack damage="35" damageType="Tesla" ballVelocity="5000"/>
+      <EnemyBuff name="Decelerate" duration="3" ratio="0.8"/>
+    </Level>
+    <Level count="2">
+      <Basic cost="170" attackSpeed="60" minRange="0" maxRange="220" targetFlyable="Ground" targetCount="All"/>
+      <Attack damage="15" damageType="Tesla" ballVelocity="5000"/>
+      <EnemyBuff name="Decelerate" duration="3" ratio="0.65"/>
+    </Level>
+    <Level count="3">
+      <Basic cost="200" attackSpeed="52" minRange="0" maxRange="230" targetFlyable="Ground" targetCount="All"/>
+      <Attack damage="0" damageType="Tesla" ballVelocity="5000"/>
+      <EnemyBuff name="Decelerate" duration="3" ratio="0.5"/>
+    </Level>
+  </Turret>
+
+  <Turret name="ThunDer">
+    <Level count="1">
+      <Basic cost="400" attackSpeed="77" minRange="0" maxRange="410" targetFlyable="GroundAir" targetCount="One"/>
+      <Attack damage="260" damageType="Tesla" ballVelocity="6000"/>
+      <EnemyBuff name="Stun" duration="0.7" possibility="0.14"/>
+    </Level>
+    <Level count="2">
+      <Basic cost="380" attackSpeed="77" minRange="0" maxRange="410" targetFlyable="GroundAir" targetCount="One"/>
+      <Attack damage="460" damageType="Tesla" ballVelocity="6000"/>
+      <EnemyBuff name="Stun" duration="0.7" possibility="0.16"/>
+    </Level>
+    <Level count="3">
+      <Basic cost="380" attackSpeed="77" minRange="0" maxRange="410" targetFlyable="GroundAir" targetCount="One"/>
+      <Attack damage="660" damageType="Tesla" ballVelocity="6000"/>
+      <EnemyBuff name="Stun" duration="0.7" possibility="0.18"/>
+    </Level>
+  </Turret>
+</Turrets>

@@ -1,0 +1,26 @@
+<Enemies>
+	<Enemy name="Elfin">
+		<Basic health="92" speed="96" damage="1"/>
+		<Type size="Tiny" flyable="Ground"/>
+		<Reward dosh="7" exp="10"/>
+		<DamageFactor bullet="1" explosive="0.8" flame="1" tesla="0.6" nuclear="1" microwave="0.4"/>
+		<Abilities>
+		</Abilities>
+	</Enemy>
+	<Enemy name="Crawler">
+		<Basic health="60" speed="160" damage="1"/>
+		<Type size="Tiny" flyable="Ground"/>
+		<Reward dosh="8" exp="10"/>
+		<DamageFactor bullet="0.9" explosive="1" flame="1" tesla="1" nuclear="1" microwave="0.4"/>
+		<Abilities>
+		</Abilities>
+	</Enemy>
+	<Enemy name="Zombie">
+		<Basic health="180" speed="64" damage="1"/>
+		<Type size="Tiny" flyable="Ground"/>
+		<Reward dosh="13" exp="12"/>
+		<DamageFactor bullet="0.7" explosive="0.8" flame="1" tesla="0.6" nuclear="1" microwave="0.4"/>
+		<Abilities>
+		</Abilities>
+	</Enemy>
+</Enemies>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Perk name="MadBomber">
+  <Attributes>
+    <Attribute factor="0.01"/>
+    <Attribute factor="0.002"/>
+    <Attribute factor="0.15"/>
+  </Attributes>
+  <Skills>
+    <Skill deltaSpeedFactor="0.2"/>
+    <Skill rangeFacttor="0.35" damageFactor="0.4"/>
+    <Skill factor="0.2"/>
+    <Skill stunDuration="0.4"/>
+    <Skill range="30"/>
+    <Skill />
+    <Skill factor="0.25"/>
+    <Skill />
+  </Skills>
+</Perk>
